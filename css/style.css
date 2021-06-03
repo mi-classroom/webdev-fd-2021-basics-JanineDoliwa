@@ -1,0 +1,68 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#444;
+  font-size: 1em;
+  
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #666;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  font-family: Georgia, serif;
+}
+
+#p-subtitle{
+  font-family:Arial, Helvetica, sans-serif;
+  color: #888;
+}
+
+cite{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  color: #AAA;
+  
+  font-style: normal; /* because italic is default value for cite */
+}
+
+.cite-text{
+  color: rgb(207, 169, 43);
+  font-family: Arial, Helvetica, sans-serif
+
+}
+
+hr {
+  width: 40%;
+  margin-left: 0; 
+  display:block; 
+  height:1px;   
+  border:0; 
+  border-top:4px solid #666; 
+}
+
+dt{
+  font-weight: bold;  
+  color: #888;
+  margin: 1em 0 0 0;
+}
+dd{
+  margin:0;
+  padding:0;
+}
+
+table,td {
+    border: 1px solid #333;
+} 
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
