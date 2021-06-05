@@ -2,12 +2,18 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   color:#444;
   font-size: 1em;
-  
 }
 
 h1 {
   font-size: 2.5em;
   color: #666;
+}
+
+#design-principles{
+
+  border-style:solid;
+  border-bottom-width:5px;
+  border-bottom-color: #666;
 }
 
 h2 {
@@ -19,7 +25,7 @@ p {
   font-family: Georgia, serif;
 }
 
-#p-subtitle{
+.p-subtitle{
   font-family:Arial, Helvetica, sans-serif;
   color: #888;
 }
@@ -32,10 +38,10 @@ cite{
   font-style: normal; /* because italic is default value for cite */
 }
 
-.cite-text{
+blockquote{
+  font-weight: bold;
+  font-style: italic;
   color: rgb(207, 169, 43);
-  font-family: Arial, Helvetica, sans-serif
-
 }
 
 hr {
@@ -52,6 +58,7 @@ dt{
   color: #888;
   margin: 1em 0 0 0;
 }
+
 dd{
   margin:0;
   padding:0;
@@ -66,3 +73,44 @@ tfoot {
     background-color: #333;
     color: #fff;
 }
+
+
+
+/*
+h1,h2,h3{
+  color:blue;
+  padding:20px;
+  font-size: 20px;
+}
+
+.mengentext{
+  font-family: sans-serif;
+  padding-bottom:10px;
+  line-height: 140%;
+}
+
+.is-hero{
+  font-size: 28px;
+}
+
+#design-principles{
+  padding: 30px;
+  background-color: #eee;
+}
+
+[placeholder] {
+  font-size: 40px;
+  padding:10px;
+}
+
+#design-principles .mengentext{
+  font-weight: bold;
+  color: red;
+
+}
+
+nav li{
+  border-top: solid 2px red;;
+}
+
+*/
