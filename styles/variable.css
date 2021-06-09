@@ -2,24 +2,30 @@
    --name: value;
 */
 
+:root{
 
-/* :root{
-  --xxs:0.4rem;
-  --xs:0,6rem;
-  --s:0.8rem;
-  --m:1rem;
-  --l:1.4rem;
-  --xl:1.8rem;
-  --xxl:2.2rem;
+  /* SIZES */
+  --xs:0.8rem;
+  --s:1.0rem;
+  --m:1.5rem;
+  --l:2.5rem;
+  --xl:3.5rem;
 
-  --light: #ccc;
+  /* FONT SIZES */
+  --h1-size:2.5rem;
+  --h2-size:1.8rem;
+  --h3-size:1rem;
+  --dt-size: var(h3-size);
+  --p-size:1rem;
+  --cite-size:0.8rem;
 
-  --lighter:#fff;
-  --dark:#222;
 
-  --text-colorvar(--lighter);
+  /* COLORS */
+  --light-grey1: #EEE;
+  --light-grey2: #AAA;
+  --middle-grey1: #888;
+  --middle-grey2: #666;
+  --dark-grey: #444;
 
-  --font-normal:Arial;
-  --lh-normal:130%;
+  --orange: rgb(207, 169, 43);
 }
- */
