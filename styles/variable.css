@@ -1,13 +1,9 @@
-/* variables = costum properties
-   --name: value;
-*/
-
 :root {
-  --s: 0.8;
-  --m: 1;
-  --l: 1.8;
-  --xl: 2.5;
-  --xxl: 3.5;
+  --s: 0.8rem;
+  --m: 1rem;
+  --l: 1.8rem;
+  --xl: 2.5rem;
+  --xxl: 3.5rem;
 
   /* COLORS */
   --light-grey1: #eee;
