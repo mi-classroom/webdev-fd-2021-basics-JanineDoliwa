@@ -1,0 +1,14 @@
+.p-subtitle {
+  color: var(--middle-grey);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-center {
+  width: 80%;
+  margin: auto;
+}
+
+.container-right {
+  width: 80%;
+  margin: auto;
+}

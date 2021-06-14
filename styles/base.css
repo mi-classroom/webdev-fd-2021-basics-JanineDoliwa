@@ -1,0 +1,63 @@
+body {
+  color: var(--dark-grey);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--s);
+}
+
+h1 {
+  color: var(--lighter-middle-grey);
+  font-size: var(--xl);
+}
+
+h2 {
+  color: black;
+  font-size: var(--l);
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: var(--m);
+}
+
+cite {
+  color: var(--light-grey2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--s);
+  font-style: normal; /* because italic is default value for cite */
+}
+
+figcaption {
+  color: var(--middle-grey2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--xs);
+}
+
+blockquote {
+  margin-left: -5%;
+  color: var(--orange);
+  font-style: italic;
+  font-weight: bold;
+}
+
+dt {
+  margin: 1em 0 0 0;
+  color: var(--middle-grey);
+  font-size: var(--m);
+  font-weight: bold;
+}
+
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+table,
+td {
+  border: 1px solid var(--dark-grey);
+}
+
+thead,
+tfoot {
+  /* background-color: var(--dark-grey); */
+  color: var(--light-grey);
+}

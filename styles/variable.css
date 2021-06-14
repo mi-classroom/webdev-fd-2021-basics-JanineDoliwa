@@ -3,21 +3,11 @@
 */
 
 :root {
-  /* SIZES */
-  --xs: 0.8rem;
-  --s: 1rem;
-  --m: 1.5rem;
-  --l: 2.5rem;
-  --xl: 3.5rem;
-
-  /* FONT SIZES */
-  --h1-size: 2.5rem;
-  --h2-size: 1.8rem;
-  --h3-size: 1rem;
-  --dt-size: var(h3-size);
-  --p-size: 1rem;
-  --cite-size: 0.8rem;
-
+  --s: 0.8;
+  --m: 1;
+  --l: 1.8;
+  --xl: 2.5;
+  --xxl: 3.5;
 
   /* COLORS */
   --light-grey1: #eee;
